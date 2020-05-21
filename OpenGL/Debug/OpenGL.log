@@ -1,5 +1,5 @@
 ﻿  Application.cpp
-D:\GitHub\OpenGLCherno\OpenGL\src\Application.cpp(15,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\Dev\OpenGL\OpenGL Episode 25++\OpenGL\src\Application.cpp(15,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
   IndexBuffer.cpp
   Renderer.cpp
   Shader.cpp
@@ -17,5 +17,7 @@ D:\GitHub\OpenGLCherno\OpenGL\src\Application.cpp(15,10): warning C4067: unexpec
   VertexArray.cpp
   VertexBuffer.cpp
   Generating Code...
-  LINK : D:\GitHub\OpenGLCherno\Debug\OpenGL.exe not found or not built by the last incremental link; performing full link
-LINK : fatal error LNK1104: cannot open file 'glew32s.lib'
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'D:\Dev\OpenGL\OpenGL Episode 25++\Debug\vc120.pdb'; linking object as if no debug info
+  OpenGL.vcxproj -> D:\Dev\OpenGL\OpenGL Episode 25++\Debug\OpenGL.exe
